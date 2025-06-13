@@ -22,7 +22,7 @@ The following packages can be installed via `pip` or `conda`:
 
 The following package can be installed by compiling with C++ compiler (`gcc`, `g++` and `make` are required) and then via `pip`:
 
-- `liblinear-weighted-kernelized` (a modification of [https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#weights_for_data_instances](LIBLINEAR with weights for data instances) for kernel models); see `source` folder and the file `README.md` in it for installation.
+- `liblinear-weighted-kernelized` (a modification of [LIBLINEAR with weights for data instances](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#weights_for_data_instances) for kernel models); see `source` folder and the file `README.md` in it for installation.
 
 ## Experiments
 
