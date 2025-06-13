@@ -18,11 +18,11 @@ import torch
 import torch.utils.data
 import torchvision.transforms as transforms
 import torchvision
-from jax import random
+#from jax import random
 import functools
-from jax import jit, grad, vmap
-import neural_tangents as nt
-from neural_tangents import stax
+#from jax import jit, grad, vmap
+#import neural_tangents as nt
+#from neural_tangents import stax
 
 sys.path.append('./source/python/build/lib.linux-x86_64-cpython-312')
 from liblinear import liblinear, liblinearutil, commonutil

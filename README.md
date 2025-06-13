@@ -1,5 +1,11 @@
 # Code for the experiment in the paper "Distributionally Robust Coreset Selection under Covariate Shift"
 
+Authors: Tomonari Tanaka, Hiroyuki Hanada, Hanting Yang, Aoyama Tatsuya, Yu Inatsu, Akahane Satoshi, Yoshito Okura, Noriaki Hashimoto, Taro Murayama, Hanju Lee, Shinya Kojima, Ichiro Takeuchi
+
+[Transactions on Machine Learning Research](https://jmlr.org/tmlr/), to appear
+
+URL: [https://openreview.net/forum?id=Eu7XMLJqsC](https://openreview.net/forum?id=Eu7XMLJqsC)
+
 ## Setup
 
 Programs are implemented in Python.
@@ -11,20 +17,12 @@ The following packages can be installed via `pip` or `conda`:
 -   `scikit-learn`
 -   `matplotlib`
 -   `cvxpy`
--   `pytorch` (required only for `main_image_data.sh`)
--   `torchvision` (required only for `main_image_data.sh`)
-
-
-The following packages can be installed via `pip`:
-
--   `jax` (please see [documentation](https://jax.readthedocs.io/en/latest/installation.html) for installation; required only for `main_image_data.sh`)
--   `neural-tangents` (required only for `main_image_data.sh`)
-
+-   `pytorch` (required only when we specify `cifar10` as a dataset)
+-   `torchvision` (required only when we specify `cifar10` as a dataset)
 
 The following package can be installed by compiling with C++ compiler (`gcc`, `g++` and `make` are required) and then via `pip`:
 
 - `liblinear-weighted-kernelized` (a modification of [https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/#weights_for_data_instances](LIBLINEAR with weights for data instances) for kernel models); see `source` folder and the file `README.md` in it for installation.
-
 
 ## Experiments
 
