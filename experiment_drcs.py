@@ -73,7 +73,7 @@ def linear_kernel(x1, x2):
 
 
 def rbf_kernel(x1, x2):
-    dist = np.linalg.norm((x1[:, np.newaxis, :] - x2[np.newaxis, :, :]), axis=2)
+    dist = np.array([np.linalg.norm(x1[i,:] - x2, axis=1) for i in range(x1.shape[0])])
     gamma = 1 / (x_train.shape[1] * x_train.var())
     k = np.exp(-gamma * dist**2)
     return k
